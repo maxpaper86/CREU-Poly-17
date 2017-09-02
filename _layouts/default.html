@@ -6,7 +6,16 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 	</head>
 	<body>
-		<h1>{{ page.title }}</h1>
+		<script>
+			var head;
+			if(page.title == "About" || page.title == "Blog" || page.title == "CREU-Poly-17"){
+				head = {{ page.title }}
+			}
+			else{
+				head = "Blog"
+			}
+		</script>
+		<h1 class = "head"></h1>
 		<nav>
     		<ul>
         		<li><a href="/CREU-Poly-17/">Home</a></li>
