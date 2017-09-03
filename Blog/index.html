@@ -5,10 +5,12 @@ title: Blog
 	<ul class="posts">
 
 	  {% for post in site.posts %}
-	    <li>
+	    <li class ="postList>
+		<div class = "postInList">
 		    <span>{{ post.date | date_to_string }}</span>
 		    <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
 		    <p>{{ post.excerpt }}<p>
-		</li>
+		</div>
+	    </li>
 	  {% endfor %}
 	</ul>
