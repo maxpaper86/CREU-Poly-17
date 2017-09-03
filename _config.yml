@@ -1,5 +1,4 @@
 name: CREU 2017 Vatricia Edgar
 markdown: kramdown
-url: "vcedgar.github.io/CREU-Poly-17/"
-permalink: /:title
+permalink: /CREU-Poly-17/:title
 future: true
