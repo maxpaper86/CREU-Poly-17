@@ -16,8 +16,10 @@ nav ul li, footer ul li {
 .postList{
     list-style: none;
 }
-
-
+.postInList {
+    background-color:#8000ff
+    padding:20px;
+}
 a {
     text-decoration: none;
     color: #999;
