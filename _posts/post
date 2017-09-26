@@ -1,0 +1,34 @@
+This week I read the Ontology 101 document from Protégé’s website. I took notes on the entire thing and completed step one of creating an ontology with a mock concept, Character Description ontology. Step one, as outlined n the document, is about defining the scope and domain of the ontology. Understanding this, I think, is core to understanding ontologies. I sent this mock document to my mentor Srividya Bansal for comments. The only problem was that the chosen topic is a bit subjective and that one might have issues encoding the concepts. Concepts such as “Character Opinion” might be defined with a “Believes” class of relationships. For example: <Character> <Believes> <Christianity>. More specific examples can be made too: <Character> <BelievesIsCute> <Dogs>.
+Practice Ontology Domain and Scope: For checking understanding
+Character Description Ontology
+Domain: Creative Writing – Characters
+•	Should describe characters in a creative work both as “people” and as objects serving the story
+Uses:
+•	Primarily used by authors to “create” (describe) characters within a creative piece
+•	Authors will create their own instances of characters; the goal is to create a framework they can do that on.
+•	Likely used alongside other creative writing ontologies that describe things like “Setting,” “Object,” and “Scene.”
+o	Ultimate goal is “Creative Work” ontology for describing creative works
+•	Could possibly be used by academics studying literature, film, and etc but not primary goal
+Questions to Answer:
+•	Behavior: How does a character act in certain situations?
+•	Personality: What does the character think and feel?
+•	Life: What relationships does the character have, where do they live and work?
+•	Description: How does the character look?
+•	Story: How does the character fit into the broader context of the piece?
+Because creative writing is a highly subjective subject, the ontology can only be asked “simple” questions, the answers to which will help answer more complex questions concerning story.
+Competency Questions:
+•	Complex question: How does the character act in a given, complex (multiple factors) situation?
+o	Specifics: The character is arguing with their spouse in front of their children. The character is angry, the spouse is also, and the children seem sad. The spouse is asking the character to choose between work and family. How might the character react?
+o	Questions the ontology will be expected to answer:
+	How does the character act when their family is present? 
+	What is the character’s opinion of their family?
+	How does the character typically act when they are angry?
+	How does the character act when others are angry or sad?
+	What is the character’s opinion of their work?
+•	Complex question: How should the character be described:
+o	Specifics: The character is being described by another character in passing
+o	Questions the ontology will be expected to answer:
+	What does the character look like?
+•	What are the character’s easiest to spot features?
+	How observant is the describing character?
+	What opinion does the describing character have of the character being described?
