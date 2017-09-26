@@ -29,10 +29,12 @@ li {
 }
 
 a {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-decoration: none;
     color: #999;
 }
 a:hover {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-decoration: underline;
 }
 h1 {
