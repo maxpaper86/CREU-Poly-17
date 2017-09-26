@@ -12,9 +12,6 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-post.excerpt{
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-}
 
 ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
