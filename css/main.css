@@ -34,7 +34,6 @@ a {
     color: #999;
 }
 a:hover {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     text-decoration: underline;
 }
 h1 {
@@ -43,6 +42,7 @@ h1 {
     color: #ff0000;
 }
 p {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     font-size: 1.5em;
     line-height: 1.4em;
     color: #333;
