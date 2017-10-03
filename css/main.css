@@ -20,6 +20,7 @@ ul {
     list-style: disc;
 }
 li {
+    padding:0px;
     margin-right: 200px;
 }
 
