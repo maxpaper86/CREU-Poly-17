@@ -16,6 +16,7 @@ body {
 ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
+    margin-top: 0px;
     font-size: 1em;
     list-style: disc;
 }
