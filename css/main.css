@@ -15,12 +15,12 @@ body {
 
 ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 20px;
+    padding: 0px;
     font-size: 1em;
     list-style: disc;
 }
 li {
-    margin-right: 100px;
+    margin-right: 200px;
 }
 
 a {
