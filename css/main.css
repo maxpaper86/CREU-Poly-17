@@ -16,7 +16,8 @@ nav ul li, footer ul li {
 ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
-     font-size: 1em;
+    font-size: 1em;
+    list-style-type: disc;
 }
 li {
     margin-right: 20px;
