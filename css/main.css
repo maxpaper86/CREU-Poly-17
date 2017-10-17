@@ -16,13 +16,13 @@ body {
 ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
-    margin-top: 0px;
+    margin-right: 200px;
     font-size: 1em;
     list-style: disc;
 }
 li {
     padding:0px;
-    margin-right: 200px;
+    margin-right: 500px;
 }
 
 a {
