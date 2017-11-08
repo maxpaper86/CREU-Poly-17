@@ -1,0 +1,9 @@
+---
+layout: default
+title: "Week 9: October 31th-Novemeber 8th"
+date: 2017-10-31
+published: true
+excerpt_separator: <excerpt>
+---
+This week we met as a group to discuss the ontology vocabulary. <excerpt> We talked about each sub-index of sustainability and determined factors, sub-factors, and indicators for each. We now have a list of factors and our current goal is to find data on these factors separately. This is a good spot for us to be in because it will not require a lot of working together.
+One of the sources we found included Google Maps/Places API. This week I will look into this source, along with looking for other sources and continuing work on my web crawler. The spreadsheet, which includes our organization of “instance data.” https://docs.google.com/a/asu.edu/spreadsheets/d/1fjQ2Gzwmza1CwA_QOhfhGRPA_T5htCnxL63azWjbUw4/edit?usp=sharing
