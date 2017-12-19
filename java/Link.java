@@ -1,4 +1,4 @@
-
+//Link object that holds the string link and it's priority over other links.
 public class Link implements Comparable{
 	public String link;
 	public int priority;
