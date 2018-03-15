@@ -1,0 +1,9 @@
+---
+layout: default
+title: "Week 27: March 6th - March 14th"
+date: 2018-03-14
+published: true
+excerpt_separator: <excerpt>
+---
+This week I worked on put the data into the onotlogy. I learned how to use Apache Jena and I have part of the program already made. Right now, I am able to add new indicators under the correct factor, which is just an alteration of the ontology deffinition. Now I am working on adding instance data to the ontology.
+Additionally, I made some changes to the ontology, such as setting the rank of indicators, factors, sub-indices and indices, or including the name of a city.
