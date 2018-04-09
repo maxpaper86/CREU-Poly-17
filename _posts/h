@@ -1,0 +1,11 @@
+---
+layout: default
+title: "Week 30: MArch 30th - April 9th"
+date: 2018-03-14
+published: true
+excerpt_separator: <excerpt>
+---
+In these past two weeks, I have still been working on creating the instance data. This is my process:
+I have collected the selected variables in a text file. This text file includes each variable's name in the ACS data base, the indicator name that the variable corresponds to, the factor and subindex of that variable, the type of data (percentage, etc) and the type of algorithm that will be used. My program pulls the variables from this text file and then searches a second file for the query code that corresponds to the variable name. Then, it pulls metropolitan area codes from another file that was downloaded from the Census bureau's website. Together, these "DataCodes" and "CityCodes" are used to create data points. 
+I query data from the Census Bureau with a url that combines the data code and city code. This query will either return nothing, if their is no data on a particular metropolitan area, or it will return a json file. The data is parsed from this json file, and stored in a data point object. When all the data points are collected, they are stored in the data base.
+To store a data point in the data base, I first check if the city has already beeen stored. If it has not been, I create the city in the data base. Then, I find or create the correct subindex for the data, then the correct factor. I find or create the correct parent indicator, then create the new indicator for the data point. The indicator will include the data, data type, algorithm type (for use later by the application) and ranking (to be populated later by backend). 
