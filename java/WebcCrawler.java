@@ -54,7 +54,8 @@ public class Main {
 	}
 	
 	public static void searchWebsite(String url, String baseURL, String target) throws IOException, ParseException {		
-		//num1++;
+		num1++;
+		if(num1 > 100) return; //Prevents the program from oing crazy and searching too much
 		//System.out.println(num1);
 		//Try block exists because sometimes we find pages we do not have access to (needs a log in, etc) and there is no way to predict this.
 		try {
