@@ -23,7 +23,7 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
-
+//Please webcrawl responsibly! Make sure any website you crawl allows it!
 public class Main {
 	
 	public static int num = 0; //number of pages the target is found on
